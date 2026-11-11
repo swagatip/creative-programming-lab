@@ -13,11 +13,13 @@ In VS Code Command pane, Select Python Interpretor > .\.`venv\Scripts\python.exe
 
 #### Commit to git
 create repository on github page if it is first commit\
-`git init`\ ---> only for the first time
+`git init` ---> only for the first time\
 `git add .`\
 `git status`\
-`git commit -m "MESSAGE GOES HERE"\
-`git remote set-url origin https://github.com`\
+`git commit -m "MESSAGE GOES HERE"`\
+`git remote set-url origin https://github.com/<REPOSITORY_PATH>`\
+`git push -u origin main`\
+`git pull origin main --allow-unrelated-histories`\
 `git push -u origin main`
 
 ## Projects
